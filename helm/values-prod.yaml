@@ -6,7 +6,7 @@ deployment:
 image:
   # Image chúng ta đã push lên Harbor (thay vì GitLab registry)
   repository: harbor.defenselab.info/master-cicd/nginx-loadbalancer-tool
-  tag: 0.1.43
+  tag: 0.1.44
   pullSecretsName: harbor-registry-login # Tên secret đã tạo ở K8s
 
 service:
